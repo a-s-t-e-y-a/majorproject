@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #000000;
+  --text: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+/* Dark theme overrides for Stream Video SDK */
+:root {
+  --str-video__background-color: #1a1a1a;
+  --str-video__primary-color: #2f7deb;
+  --str-video__text-color: #ffffff;
+  --str-video__secondary-text-color: #858585;
+  --str-video__disabled-color: #2d2f2e;
+  --str-video__border-color: #333333;
+}
+
+.str-video__participant-details {
+  color: white;
+}
+
+.str-video__menu-container {
+  color: white;
+}
+
+.str-video__notification {
+  color: white;
+}
